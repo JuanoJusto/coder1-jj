@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -56,8 +58,7 @@ header nav ul li a {
 /*-----CAROUSEL-----*/
 
 .carousel-item img{
-    height: 420px;
-    object-fit: cover;
+    height: 520px;
 }
 .carousel-item div{
     background-color: rgba(0, 0, 0, 0.5);
@@ -94,7 +95,7 @@ header nav ul li a {
 /*-----TOP DIRECTORES-----*/
 
 .seccion-directores{
-    /*background-color: rgb(85, 81, 81);*/
+    background-color: rgb(85, 81, 81);
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -107,7 +108,7 @@ header nav ul li a {
         background-color: rgba(0, 0, 0, 0.822);
         color: antiquewhite;
         padding: 25px;
-        font-size: 18px;
+        font-size: 15px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         width: 100%;
         display: flex;
@@ -131,8 +132,8 @@ header nav ul li a {
     }
     .card-directores img{
         object-fit: cover;
-        width: 400px;
-        height: 400px;
+        width: 380px;
+        height: 380px;
         border-radius: 5px;
         margin-right: 15px;
     }
@@ -219,17 +220,21 @@ header nav ul li a {
     margin-right: 8px;
     margin-top: 0;
 }
+#exampleCheck1{
+    margin-left: 1px;
+}
 .news-form button{
     padding: 5px;
     font-size: 15px;
     background-color: antiquewhite;
     font-weight: bold;
     border: none;
+    color: rgb(145, 27, 27);
 }
 
 /*-----NOSOTROS-----*/
 .intro-nosotros {
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 /*-----FOOTER-----*/
@@ -344,11 +349,42 @@ footer a img {
     }
     
 }
+/*-----TOP DIRECTORES-----*/
+@media screen and (max-width:815px){
+    .card-directores img{
+        width: 250px;
+        height: 250px;
+    }
+    .card-directores p{
+        font-size: 12px;
+    }
+    .card-directores p a{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:665px){
+    .card-directores img{
+        width: 180px;
+        height: 180px;
+    }
+}
+@media screen and (max-width:560px){
+    .card-directores{
+        flex-direction: column;
+        text-align: justify;
+    }
+    .card-directores p{
+        margin-top: 15px;
+    }
+    .card-directores img{
+        margin-right: 0px;
+    }
+}
+
 /*-----ANIMACIONES, TRANSICIONES, ETC-----*/
 
 header nav ul li a:hover{
     color: rgb(145, 27, 27);
-    font-size: 23px;
 }
 .card-directores{
     transition: transform 0.5s;
