@@ -122,6 +122,7 @@ header nav ul li a {
     }
     .card-directores p{
         max-width: fit-content;
+        line-height: 25px;
     }
     .card-directores p a{
         text-decoration: none;
