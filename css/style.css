@@ -41,7 +41,23 @@ header {
       header nav ul li a:hover {
         color: #911b1b; }
 
-/*-----MAIN-----*/
+footer {
+  background-color: #1b1b1b;
+  width: 100%;
+  height: 70px;
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  footer div p {
+    margin-left: 40px; }
+  footer .rrss-icons {
+    margin-right: 40px; }
+    footer .rrss-icons a img {
+      width: 25px;
+      height: 25px;
+      margin: 5px; }
+
 /*-----TOP DIRECTORES-----*/
 .intro {
   background-color: #272424; }
@@ -93,27 +109,11 @@ header {
         font-size: 25px;
         font-weight: bold;
         color: antiquewhite; }
-    .seccion-directores .card-directores img {
-      object-fit: cover;
-      width: 380px;
-      height: 380px;
-      border-radius: 5px;
-      margin-right: 15px; }
-
-/*-----FOOTER-----*/
-footer {
-  background-color: #1b1b1b;
-  width: 100%;
-  height: 70px;
-  color: antiquewhite;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-  footer div p {
-    margin-left: 40px; }
-  footer .rrss-icons {
-    margin-right: 40px; }
-    footer .rrss-icons a img {
-      width: 25px;
-      height: 25px;
-      margin: 5px; }
+        .seccion-directores .card-directores p a:hover {
+          color: #911b1b; }
+  .seccion-directores img {
+    object-fit: cover;
+    width: 380px;
+    height: 380px;
+    border-radius: 5px;
+    margin-right: 15px; }

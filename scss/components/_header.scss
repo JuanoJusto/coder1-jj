@@ -1,0 +1,49 @@
+@import "../base/variables";
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div{
+        display: flex;
+        align-items: center;
+        margin: 15px;
+        justify-content: center;
+        img{
+            width: 70px;
+            height: 70px;
+            margin-right: 15px;
+            margin-left: 40px;
+            }
+        p   {
+            font-family: 'Mystery Quest', cursive;
+            font-size: 30px;
+            color: antiquewhite;
+            margin-bottom: 0em;
+            }    
+    }
+    nav{
+        ul{
+            list-style: none;
+            font-family: 'Mystery Quest', cursive;
+            display: flex;
+            margin-right: 40px;
+            margin-bottom: 0em;
+            li{
+                a{
+                    text-decoration: none;
+                    color: antiquewhite;
+                    font-size: 20px;
+                    font-weight: 700;
+                    padding: 15px;
+                    &:hover{
+                        color: $color-bordo;
+                    }
+                }
+            }
+        }
+    }   
+}
