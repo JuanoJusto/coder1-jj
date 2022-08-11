@@ -22,3 +22,40 @@ footer{
         }
     } 
 }
+
+/*-----MEDIA QUERIES-----*/
+
+@media screen and (max-width:630px){
+    footer{
+        div{
+            p{
+                font-size: 15px;
+        width: 250px;
+        text-align: center;
+            }
+        }
+        .rrss-icons{
+            a{
+                img{
+                    width: 18px;
+                    height: 18px;
+                    margin-right: 3px;
+                }
+            }
+        }
+    } 
+}
+@media screen and (max-width: 447px){
+    footer {
+        flex-direction: column;
+        padding-top: 5px;
+        div{
+            p{
+                margin: 0;
+            }
+        }
+        .rrss-icons{
+            margin: 0;
+        }
+    }
+}
