@@ -1,5 +1,7 @@
 <h3 align="center">Un Blog hecho por y para amantes del cine de terror.</h3>
 
+<p> Si te gusta el cine de terror, este blog es para vos. Noticias, directores, peliculas recomendadas y mucho más! </p>
+
 <h3 align="left">Connect with me:</h3>
 <p align="left"> https://dailyfear.netlify.app/
 </p>
